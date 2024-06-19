@@ -30,7 +30,7 @@ pub fn plus_moins() {
 
 		// On compare le nombre avec le nombre secret 
 		match nombre.cmp(&secret) {
-			Ordering::Less => printlPn!("C'est plus !"),
+			Ordering::Less => println!("C'est plus !"),
 			Ordering::Greater => println!("C'est moins !"),
 			Ordering::Equal => {
 				println!("Gagné !");
